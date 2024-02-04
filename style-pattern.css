@@ -138,4 +138,14 @@ section {
   color: #fff;
 }
 
+.wireframe-desktop {
+  width: 500px;
+  vertical-align: top;
+}
+
+.wireframe-mobile {
+  width: 300px;
+  vertical-align: top;
+}
+
 /*# sourceMappingURL=style-pattern.css.map */

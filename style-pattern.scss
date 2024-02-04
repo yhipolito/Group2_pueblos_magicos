@@ -64,3 +64,12 @@ section {
 .uppercase-light {
   @include atoms.uppercase($text-light);
 }
+
+.wireframe-desktop {
+  width: 500px;
+  vertical-align: top;
+}
+.wireframe-mobile {
+  width: 300px;
+  vertical-align: top;
+}
