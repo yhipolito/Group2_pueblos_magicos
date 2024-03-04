@@ -26,7 +26,16 @@ h1, h2, h3{
 
 h1{
   font-size: $fSize-lg;
+  background-color: $accent3;
+  height: 2.5em;
+  width: 12em;
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
+  border-radius: 12px;
 }
+
+
 
 .page-wrapper{
   display: grid;
@@ -50,24 +59,29 @@ h1{
 
 .sidebar{
   text-align: end;
+  background: $text-light;
+  width: 250px;
+  padding: 1.5em;
+  font-size: 80%;
   li{
     list-style: none;
   }
-  background: $text-light;
-  width: 200px;
 }
 
 .intro, .benefits{
   background: $accent1;
   border: solid 2px $text-light;
+  padding: 2em;
 }
 
 .explanation, .requirements{
   background: $accent2;
   border: solid 2px $text-light;
+  padding: 2em;
 }
 
 .participation{
   background: $accent3;
   border: solid 2px $text-light;
+  padding: 2em;
 }
