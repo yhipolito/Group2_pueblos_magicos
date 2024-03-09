@@ -1,3 +1,6 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 * {
@@ -9,8 +12,7 @@ html {
   padding: 5%;
   display: flex;
   justify-content: center;
-  }
-  
+}
 
 body {
   font-family: "Nunito Sans", sans-serif;
@@ -26,7 +28,7 @@ h1, h2, h3 {
   font-family: "Lobster", sans-serif;
 }
 
-h3{
+h3 {
   font-size: 32px;
 }
 
@@ -43,27 +45,26 @@ h1 {
   padding: 1em;
 }
 
-
 .page-wrapper {
   display: grid;
   grid-template-columns: 50% auto;
   gap: 38px;
 }
 
-.intro{
-  grid-column: 1 / 3;
+.intro {
+  grid-column: 1/3;
 }
 
-header{
+header {
   display: flex;
   position: relative;
 }
 
-header h2::before{
+header h2::before {
   content: "✨";
 }
 
-header h2{
+header h2 {
   position: absolute;
   left: 350px;
   top: 50px;
@@ -76,20 +77,20 @@ header h2{
   width: 300px;
 }
 
-h2 abbr{
+h2 abbr {
   width: 60px;
 }
 
-a:link{
+a:link {
   text-decoration: underline dotted;
   color: #000;
 }
 
-.summary{
+.summary {
   width: 520px;
 }
 
-.preamble{
+.preamble {
   display: flex;
   justify-content: end;
   width: 580px;
@@ -99,7 +100,7 @@ a:link{
   margin-left: 52px;
 }
 
-.main h3, .preamble h3{
+.main h3, .preamble h3 {
   background: #EF2EC5;
   height: 80px;
   width: 400px;
@@ -111,7 +112,7 @@ a:link{
   margin: 0;
 }
 
-.main{
+.main {
   position: relative;
 }
 
@@ -122,17 +123,18 @@ a:link{
   grid-template-columns: 50% auto;
   gap: 38px;
 }
+
 .main.supporting .explanation {
   grid-column: 1/3;
   padding-top: 36px;
 }
 
-.explanation h3{
+.explanation h3 {
   position: absolute;
   top: -32px;
 }
 
-.participation h3{
+.participation h3 {
   position: absolute;
   top: 260px;
   left: -30px;
@@ -142,21 +144,21 @@ a:link{
   margin-top: 20px;
 }
 
-.benefits h3{
+.benefits h3 {
   position: absolute;
   top: 260px;
   left: 755px;
 }
 
-.benefits{
+.benefits {
   margin-top: 20px;
 }
 
-.requirements{
+.requirements {
   position: relative;
 }
 
-.requirements h3{
+.requirements h3 {
   position: absolute;
   top: -20px;
 }
@@ -172,8 +174,9 @@ a:link{
   width: 950px;
   padding: 1.5em;
   font-size: 80%;
-  grid-row: 5 / 6;
+  grid-row: 5/6;
 }
+
 .sidebar li {
   list-style: none;
 }
@@ -196,26 +199,17 @@ a:link{
   padding: 2em;
 }
 
-footer{
+footer {
   background: #FFD700;
   height: 60px;
 }
 
-
-.design-selection{
+.design-selection, .design-archives, .zen-resources {
   display: flex;
   align-items: center;
+  width: 480px;
+  justify-content: space-between;
+  margin-left: 42px;
 }
-
-.design-archives{
-  display: flex;
-  align-items: center;
-}
-
-.zen-resources{
-  display: flex;
-  align-items: center;
-}
-
 
 /*# sourceMappingURL=style.css.map */
