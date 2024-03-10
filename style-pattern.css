@@ -50,7 +50,7 @@ p {
 
 a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  color: #333;
+  color: #111111;
   text-decoration: none;
   transition: border-color 0.2s ease-in-out;
 }
@@ -64,15 +64,15 @@ a:hover {
 }
 
 html {
-  background-color: #daede2;
+  background-color: #1375E8;
   padding: 5%;
 }
 
 body {
   font-family: "Nunito Sans", sans-serif;
   font-size: 85%;
-  color: #333;
-  background-color: #E97451;
+  color: #111111;
+  background-color: #FA6724;
   margin: 0;
   padding: 1em;
 }
@@ -103,7 +103,7 @@ section {
 }
 
 .primary {
-  background-color: #E97451;
+  background-color: #FA6724;
 }
 
 .accent1 {
@@ -111,11 +111,11 @@ section {
 }
 
 .accent2 {
-  background-color: #006400;
+  background-color: #13E841;
 }
 
 .text-dark {
-  background-color: #333;
+  background-color: #111111;
 }
 
 .element {
@@ -128,7 +128,7 @@ section {
   font-weight: 300;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #333;
+  color: #111111;
 }
 
 .uppercase-light {
@@ -146,6 +146,4 @@ section {
 .wireframe-mobile {
   width: 300px;
   vertical-align: top;
-}
-
-/*# sourceMappingURL=style-pattern.css.map */
+}/*# sourceMappingURL=style-pattern.css.map */
